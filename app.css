@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1rem;
+  color: white;
+  background-color: black;
+}
+
+header #logo {
+  margin: 0;
+}
+
+.tv-shows-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tv-show-card {
+  margin: 2rem;
+  box-shadow: 3px 3px 8px rgba(50, 50, 50, 0.157);
+}
